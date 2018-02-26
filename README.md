@@ -5,4 +5,4 @@ MVVM + RxSwift & RxCocoa ([here is why](https://github.com/ReactiveX/RxSwift/blo
 
 # What's missing?
 
-Well, unit tests because of MacBook failure (thank God I salvaged the code) ¯_(ツ)_/¯
+Well, the unit tests are AWOL because of MacBook failure (thank God I keep my code outside the laptop) ¯_(ツ)_/¯
