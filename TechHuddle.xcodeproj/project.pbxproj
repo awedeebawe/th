@@ -7,21 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BAACE6791BE181B23CCC6465 /* Pods_TechHuddle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E057E8DE9FD12FB15558088 /* Pods_TechHuddle.framework */; };
 		C5942B2A203FDE82000E4BAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5942B29203FDE82000E4BAB /* AppDelegate.swift */; };
-		C5942B2C203FDE82000E4BAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5942B2B203FDE82000E4BAB /* ViewController.swift */; };
-		C5942B2F203FDE82000E4BAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5942B2D203FDE82000E4BAB /* Main.storyboard */; };
 		C5942B31203FDE82000E4BAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5942B30203FDE82000E4BAB /* Assets.xcassets */; };
 		C5942B34203FDE82000E4BAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5942B32203FDE82000E4BAB /* LaunchScreen.storyboard */; };
+		C5942B3D203FDF62000E4BAB /* BarsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5942B3C203FDF62000E4BAB /* BarsListViewController.swift */; };
+		C5942B3F203FDF9D000E4BAB /* BarsMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5942B3E203FDF9D000E4BAB /* BarsMapViewController.swift */; };
+		C5942B44203FE8BC000E4BAB /* UIViewController+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5942B43203FE8BC000E4BAB /* UIViewController+Ex.swift */; };
+		C5942B47203FF111000E4BAB /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5942B46203FF111000E4BAB /* NetworkService.swift */; };
+		C5942B49203FF9A2000E4BAB /* GeolocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5942B48203FF9A2000E4BAB /* GeolocationService.swift */; };
+		C5B087492040962B00CF3E16 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B087482040962B00CF3E16 /* ViewModel.swift */; };
+		C5B0874B2040A33D00CF3E16 /* UIViewController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B0874A2040A33D00CF3E16 /* UIViewController+Rx.swift */; };
+		C5B0874E2040B24B00CF3E16 /* ResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B0874D2040B24B00CF3E16 /* ResultModel.swift */; };
+		C5B087502041731100CF3E16 /* UILabel+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B0874F2041731100CF3E16 /* UILabel+Ex.swift */; };
+		C5B087552041B78F00CF3E16 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B087542041B78F00CF3E16 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1EBA270A6467E377A9BECF22 /* Pods-TechHuddle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechHuddle.release.xcconfig"; path = "Pods/Target Support Files/Pods-TechHuddle/Pods-TechHuddle.release.xcconfig"; sourceTree = "<group>"; };
+		3CFD2B9A2556B40AAF67A530 /* Pods-TechHuddleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechHuddleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TechHuddleTests/Pods-TechHuddleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		529C5B88B0446DA90FAC651C /* Pods_TechHuddleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechHuddleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E057E8DE9FD12FB15558088 /* Pods_TechHuddle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechHuddle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46AE76A5355644568D11848 /* Pods-TechHuddle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechHuddle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TechHuddle/Pods-TechHuddle.debug.xcconfig"; sourceTree = "<group>"; };
 		C5942B26203FDE82000E4BAB /* TechHuddle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechHuddle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5942B29203FDE82000E4BAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C5942B2B203FDE82000E4BAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C5942B2E203FDE82000E4BAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5942B30203FDE82000E4BAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5942B33203FDE82000E4BAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5942B35203FDE82000E4BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5942B3C203FDF62000E4BAB /* BarsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarsListViewController.swift; sourceTree = "<group>"; };
+		C5942B3E203FDF9D000E4BAB /* BarsMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarsMapViewController.swift; sourceTree = "<group>"; };
+		C5942B43203FE8BC000E4BAB /* UIViewController+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ex.swift"; sourceTree = "<group>"; };
+		C5942B46203FF111000E4BAB /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		C5942B48203FF9A2000E4BAB /* GeolocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeolocationService.swift; sourceTree = "<group>"; };
+		C5B087482040962B00CF3E16 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C5B0874A2040A33D00CF3E16 /* UIViewController+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Rx.swift"; sourceTree = "<group>"; };
+		C5B0874D2040B24B00CF3E16 /* ResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultModel.swift; sourceTree = "<group>"; };
+		C5B0874F2041731100CF3E16 /* UILabel+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Ex.swift"; sourceTree = "<group>"; };
+		C5B087542041B78F00CF3E16 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D4DAF27C94D92A031E319BF7 /* Pods-TechHuddleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechHuddleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TechHuddleTests/Pods-TechHuddleTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +52,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAACE6791BE181B23CCC6465 /* Pods_TechHuddle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF405ED873A28F7D798F539B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E057E8DE9FD12FB15558088 /* Pods_TechHuddle.framework */,
+				529C5B88B0446DA90FAC651C /* Pods_TechHuddleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C5942B1D203FDE82000E4BAB = {
 			isa = PBXGroup;
 			children = (
 				C5942B28203FDE82000E4BAB /* TechHuddle */,
 				C5942B27203FDE82000E4BAB /* Products */,
+				F3F5125ECA11BD364DB8138D /* Pods */,
+				BF405ED873A28F7D798F539B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +89,81 @@
 		C5942B28203FDE82000E4BAB /* TechHuddle */ = {
 			isa = PBXGroup;
 			children = (
+				C5B087532041B78500CF3E16 /* Utils */,
+				C5B0874C2040B23E00CF3E16 /* Model */,
+				C5B087472040960D00CF3E16 /* ViewModel */,
+				C5942B45203FEFDF000E4BAB /* Services */,
+				C5942B42203FE89C000E4BAB /* Extensions */,
+				C5942B3B203FDED0000E4BAB /* View Controllers */,
 				C5942B29203FDE82000E4BAB /* AppDelegate.swift */,
-				C5942B2B203FDE82000E4BAB /* ViewController.swift */,
-				C5942B2D203FDE82000E4BAB /* Main.storyboard */,
 				C5942B30203FDE82000E4BAB /* Assets.xcassets */,
 				C5942B32203FDE82000E4BAB /* LaunchScreen.storyboard */,
 				C5942B35203FDE82000E4BAB /* Info.plist */,
 			);
 			path = TechHuddle;
+			sourceTree = "<group>";
+		};
+		C5942B3B203FDED0000E4BAB /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C5942B3C203FDF62000E4BAB /* BarsListViewController.swift */,
+				C5942B3E203FDF9D000E4BAB /* BarsMapViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C5942B42203FE89C000E4BAB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C5942B43203FE8BC000E4BAB /* UIViewController+Ex.swift */,
+				C5B0874A2040A33D00CF3E16 /* UIViewController+Rx.swift */,
+				C5B0874F2041731100CF3E16 /* UILabel+Ex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C5942B45203FEFDF000E4BAB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C5942B46203FF111000E4BAB /* NetworkService.swift */,
+				C5942B48203FF9A2000E4BAB /* GeolocationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C5B087472040960D00CF3E16 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C5B087482040962B00CF3E16 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C5B0874C2040B23E00CF3E16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5B0874D2040B24B00CF3E16 /* ResultModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C5B087532041B78500CF3E16 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C5B087542041B78F00CF3E16 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F3F5125ECA11BD364DB8138D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C46AE76A5355644568D11848 /* Pods-TechHuddle.debug.xcconfig */,
+				1EBA270A6467E377A9BECF22 /* Pods-TechHuddle.release.xcconfig */,
+				3CFD2B9A2556B40AAF67A530 /* Pods-TechHuddleTests.debug.xcconfig */,
+				D4DAF27C94D92A031E319BF7 /* Pods-TechHuddleTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5942B38203FDE82000E4BAB /* Build configuration list for PBXNativeTarget "TechHuddle" */;
 			buildPhases = (
+				F8569DA7FDC0E09F0096BE99 /* [CP] Check Pods Manifest.lock */,
 				C5942B22203FDE82000E4BAB /* Sources */,
 				C5942B23203FDE82000E4BAB /* Frameworks */,
 				C5942B24203FDE82000E4BAB /* Resources */,
+				25F050CC50D1ECA5561DB9B0 /* [CP] Embed Pods Frameworks */,
+				9E795064703F02AB2CE3B6EE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,33 +230,89 @@
 			files = (
 				C5942B34203FDE82000E4BAB /* LaunchScreen.storyboard in Resources */,
 				C5942B31203FDE82000E4BAB /* Assets.xcassets in Resources */,
-				C5942B2F203FDE82000E4BAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25F050CC50D1ECA5561DB9B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TechHuddle/Pods-TechHuddle-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TechHuddle/Pods-TechHuddle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E795064703F02AB2CE3B6EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TechHuddle/Pods-TechHuddle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8569DA7FDC0E09F0096BE99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TechHuddle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C5942B22203FDE82000E4BAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5942B2C203FDE82000E4BAB /* ViewController.swift in Sources */,
+				C5942B49203FF9A2000E4BAB /* GeolocationService.swift in Sources */,
+				C5942B47203FF111000E4BAB /* NetworkService.swift in Sources */,
+				C5B0874E2040B24B00CF3E16 /* ResultModel.swift in Sources */,
+				C5942B3D203FDF62000E4BAB /* BarsListViewController.swift in Sources */,
+				C5942B44203FE8BC000E4BAB /* UIViewController+Ex.swift in Sources */,
+				C5B087502041731100CF3E16 /* UILabel+Ex.swift in Sources */,
+				C5942B3F203FDF9D000E4BAB /* BarsMapViewController.swift in Sources */,
 				C5942B2A203FDE82000E4BAB /* AppDelegate.swift in Sources */,
+				C5B0874B2040A33D00CF3E16 /* UIViewController+Rx.swift in Sources */,
+				C5B087492040962B00CF3E16 /* ViewModel.swift in Sources */,
+				C5B087552041B78F00CF3E16 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C5942B2D203FDE82000E4BAB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C5942B2E203FDE82000E4BAB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C5942B32203FDE82000E4BAB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,31 +433,35 @@
 		};
 		C5942B39203FDE82000E4BAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C46AE76A5355644568D11848 /* Pods-TechHuddle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 92B49Q6AZ2;
 				INFOPLIST_FILE = TechHuddle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tesk.for.TechHuddle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.task.for.TechHuddle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C5942B3A203FDE82000E4BAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EBA270A6467E377A9BECF22 /* Pods-TechHuddle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 92B49Q6AZ2;
 				INFOPLIST_FILE = TechHuddle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tesk.for.TechHuddle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.task.for.TechHuddle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
